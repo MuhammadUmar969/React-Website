@@ -1,7 +1,7 @@
-import web from "../src/images/pic2.png"
+import web from "../src/images/webb.jpg"
 import app from "../src/images/app.avif"
-import android from "../src/images/andriod.png"
-import digital from "../src/images/digital.jpg"
+import android from "../src/images/andrio.jpg"
+import digital from "../src/images/digi.jpg"
 import marketing from "../src/images/marketing.png"
 import software from "../src/images/software.jpg"
 

@@ -6,7 +6,13 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+html::-webkit-scrollbar{
+    display: none;
+}
 
+html{
+    scrollbar-width: none;
+}
 .navbar{
     background-color: #fff !important;
 }

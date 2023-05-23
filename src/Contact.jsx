@@ -20,12 +20,16 @@ const Contact = () => {
             };
         });
      };
-
+     
     const  formSubmit = (e) => {
     e.preventDefault();
+    if (!data.fullname || !data.phone || !data.email || !data.msg) {
+      alert('Please fill in all the fields.');
+    } else {
     alert(
     `My name is ${data.fullname}. My mobile number is ${data.phone} and my email is ${data.email}. Here is what I want to say ${data.msg}`
     );
+    }
    };
 
   return (
